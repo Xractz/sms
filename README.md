@@ -13,7 +13,7 @@ $python spam.py
 ```
 
 
-Copyright © 2019, Xractz - IndoSec
+Copyright © 2020, Xractz - IndoSec
 
 
 

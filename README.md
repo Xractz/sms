@@ -1,5 +1,5 @@
 # SPAM SMS Unlimited
-![image](https://github.com/Xractz/SMS/blob/master/sms.jpg)
+![image](https://github.com/Xractz/SMS/blob/master/tools.jpg)
 SPAM SMS menggunakan api web INDIHOME dengan menggunakan bahasa pemrograman python
 
 ## Cara Install

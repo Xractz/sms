@@ -24,7 +24,7 @@ def main(cnt, no):
 		for x in range(int(cnt)):
 			futures.append(e.submit(gas, no))
 		for i, future in enumerate(futures):
-			jml += 1
+			jml += 66
 			spam = future.result()
 			if "Gagal!" or "dikirim" in spam:
 				print(f"[{jml}] Spammed {no}")
